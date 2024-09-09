@@ -22,7 +22,7 @@ if(!isset($_SESSION["loggedin"]) || $_SESSION["loggedin"] !== true){
     <div class="wrapper">
         <h2>Cadastro</h2>
         <p>Cadastrar nome e CPF</p>
-        <form action="" method="POST">
+        <form action="registro.php" method="POST">
             <div class="form-group">
                 <label>Nome</label>
                 <input type="text" name="nome" class="form-control" value="">
